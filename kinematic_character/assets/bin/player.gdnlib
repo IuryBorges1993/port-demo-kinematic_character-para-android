@@ -3,7 +3,7 @@
 singleton=false
 load_once=true
 symbol_prefix="godot_"
-reloadable=false
+reloadable=true
 
 [entry]
 
@@ -11,6 +11,7 @@ X11.64="res://assets/bin/x11/libplayer.so"
 Windows.64="res://bin/win64/player.dll"
 OSX.64="res://bin/osx/player.dylib"
 Android.armeabi-v7a=""
+Android.arm64-v8a="res://assets/bin/android/libplayer.so"
 
 [dependencies]
 
@@ -18,3 +19,4 @@ X11.64=[  ]
 Windows.64=[  ]
 OSX.64=[  ]
 Android.armeabi-v7a=[  ]
+Android.arm64-v8a=[  ]
